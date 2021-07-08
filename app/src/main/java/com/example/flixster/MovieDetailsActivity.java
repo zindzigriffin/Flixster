@@ -66,8 +66,6 @@ public class MovieDetailsActivity extends AppCompatActivity {
                 intent.putExtra("movieID", movie.getMovieID());
                 // show the activity
                 startActivity(intent);
-                //log statement to ensure that the button was clicked
-                Log.d("movie details activity", "clicked!");
             }
         });
 
